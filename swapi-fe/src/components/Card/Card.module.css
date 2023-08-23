@@ -1,0 +1,45 @@
+h3 {
+    font-family: 'Star Wars', 'Sains Serif';
+    text-decoration: none;
+    user-select: none;
+    cursor: auto;
+    color: yellow;
+}
+
+.card-text {
+    text-decoration: none;
+    user-select: none;
+    cursor: auto;
+    color: yellow;
+    transform: perspective(300px) rotateX(35deg);
+    text-align: justify;
+
+    margin: 10px 10px 10px 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    max-width: 500px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}
+
+.flex-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

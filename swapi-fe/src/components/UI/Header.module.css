@@ -1,0 +1,9 @@
+.title-paragraph {
+    font-family: 'Star Jedi', sans-serif;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 30px;
+    color: transparent;
+    -webkit-text-stroke: 1px yellow;
+}
